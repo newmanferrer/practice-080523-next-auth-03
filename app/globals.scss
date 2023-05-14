@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  background-color: rgb(90, 90, 90);
+}

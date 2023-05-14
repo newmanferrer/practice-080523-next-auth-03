@@ -1,0 +1,10 @@
+.container {
+  width: 100wv;
+  padding: 2rem 0;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,28 @@
+.container {
+  width: 100vw;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__title {
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+  }
+
+  &__title_h1 {
+    margin: 2rem 0;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  &__title_h2 {
+    font-size: 2.5rem;
+  }
+
+  &__title_h3 {
+    font-size: 2rem;
+  }
+}
